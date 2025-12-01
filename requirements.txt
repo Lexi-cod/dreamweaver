@@ -1,0 +1,16 @@
+flask==3.0.2
+google-genai==0.3.0
+python-dotenv==1.0.1
+
+# Optional but recommended (for safety & correct JSON encoding)
+ujson==5.10.0
+
+# HTML sanitization and safe escaping (Flask dependency)
+markupsafe==2.1.5
+
+# For async support inside orchestrator (Python built-in, but some packages help)
+anyio==4.3.0
+
+# Only needed for locking/threading / orchestration helpers
+# These are part of Python stdlib but pip will auto-resolve dependencies anyway
+requests==2.32.3
